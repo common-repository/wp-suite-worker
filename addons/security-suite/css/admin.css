@@ -1,0 +1,48 @@
+.wps-ss-label {
+  border-radius:5px;
+  background: #5bc0de;
+  text-align: center;
+  display: inline-block;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.wps-ss-label.high {
+  background: #d9534f;
+}
+
+.wps-ss-label.medium {
+  background: #f0ad4e;
+}
+
+.wps-ss-label.success {
+  background: #5cb85c;
+}
+
+#wps-ss-test-table .error td {
+  background: #FFC8C8;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#wps-ss-test-table .wps-ss-fix-problem {
+  background: #f0ad4e;
+}
+
+#wps-ss-test-table .wps-ss-fix {
+  background: #5BC0DE !important;
+  width: 30px;
+  height: 30px;
+  border-radius:50%;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  margin-left: 15px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+#wps-ss-test-table .wps-ss-fix i {
+  color:#fff;
+  line-height: 30px;
+}
